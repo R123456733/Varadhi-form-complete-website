@@ -9,9 +9,9 @@
 
 .main {
 
-    background-color: orange;
-    height: 130px;
-    margin-top: 20px;
+    background-color:  #f8c027;
+    height: 140px;
+    /* margin-top: 20px; */
     padding-top: 10px;
     padding-left: 10px;
     /* padding-bottom: 20px; */
@@ -28,12 +28,13 @@
 .nav a {
     text-decoration: none;
 
+
 }
 
 .nav {
 
     float: left;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-top: 40px;
     
 
@@ -54,8 +55,12 @@
 transform: scale(1.09);
 height: 100px;
 width: 20%;
-background-color:rgb(250, 14, 144);
-color: white;
+/* background-color:#d8d5d7; */
+color: rgb(250, 14, 144);
+border-bottom:  0.5px solid rgba(255, 255, 255, 0.829);
+transition: 0.5s;
+
+
 
 
 }
@@ -73,6 +78,7 @@ color: white;
     background-position: center;
 height:700px ;
 width: 100%;
+transition: 2s;
 }
 
 .front{
@@ -81,6 +87,7 @@ width: 100%;
     background-position: center ;
     height: 700px;
     width: 100%;
+    transition: 2s;
 }
 /* section 2 */
 
@@ -120,7 +127,8 @@ width: 100%;
 
 .mid :hover{
 
-    transform: scale(1.05);
+    transform: scale(1.02);
+    /* transition: 2s; */
 }
 .mid del{
     color: rgb(196, 45, 45);
@@ -130,8 +138,13 @@ width: 100%;
 
     margin-top: 5px;
     /* color: white; */
-    /* background-color: beige; */
+    /* background-color: green; */
 
+}
+.mid button:hover{
+
+    background-color: green;
+    color: white;
 }
 /* section 4 */
 
@@ -167,7 +180,7 @@ width: 100%;
 
 .mid2 :hover{
 
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .mid2 del{
     color: rgb(196, 45, 45);
@@ -180,6 +193,12 @@ width: 100%;
     /* background-color: beige; */
 
 }
+.mid2 button:hover{
+
+    background-color: green;
+    color: white;
+}
+
 /* section 5 */
 
 .maincow{
@@ -387,6 +406,7 @@ margin-left: 20px;
 .small:hover{
 
     transform: scale(0.95);
+    transition: 1s;
 }
 /* section 10 */
 
@@ -542,7 +562,7 @@ margin-top: 70px;
     height: 750px;
     width: 100%;
     /* border: 2px solid red; */
-    margin-top: 180px;
+    margin-top: 100px;
     background-color: #f8c027;
 }
 
